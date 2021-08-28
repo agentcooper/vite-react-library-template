@@ -8,7 +8,7 @@ export default defineConfig({
   build: {
     lib: {
       entry: path.resolve(__dirname, "./src/lib/index.js"),
-      name: "MyLib",
+      name: "my-lib",
       fileName: (format) => `my-lib.${format}.js`,
     },
     rollupOptions: {
